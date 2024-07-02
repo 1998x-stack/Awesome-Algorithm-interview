@@ -11,9 +11,7 @@
 **常用方法**：
 - **卡方检验（Chi-square Test）**：
   - 适用于分类任务，评估分类特征和目标变量之间的独立性。
-  - 公式：$$
-  \chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}
-  $$
+  - 公式：$$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
 - **方差选择法（Variance Threshold）**：
   - 通过设定方差阈值，去除方差低于阈值的特征。
 - **相关系数法（Correlation Coefficient）**：
